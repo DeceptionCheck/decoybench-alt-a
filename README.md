@@ -1,5 +1,7 @@
 # DecoyBench
 
+> **This is the Opus implementation of DecoyBench, version 0.2.1** (repository `decoybench-opus`). Two other independent implementations share the DecoyBench name: Sol's R6 and Muse's. They are separate projects with different commands, module layouts and result formats. Install each one in its own virtual environment so that none overwrites another.
+
 DecoyBench is a small measurement harness for lab services such as decoys and
 honeypots, and for the model endpoints behind them. It runs a corpus at 1, 2, 4
 and 8 concurrent clients, times every attempt against one deadline, and writes
@@ -181,4 +183,4 @@ showed up as one-second connection retries in the 8-client latency.
 
 ## Licence
 
-MIT; see [LICENSE](LICENSE) and [NOTICE](NOTICE). This private candidate is not published.
+MIT; see [LICENSE](LICENSE) and [NOTICE](NOTICE). Security and limitations: [SECURITY.md](SECURITY.md).
