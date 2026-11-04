@@ -1,0 +1,18 @@
+[project]
+name = "decoybench"
+version = "0.2.1"
+description = "HTTP transport timing and reporting for lab services; standard library only"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+authors = [{ name = "Deception Check, Inc." }]
+dependencies = []
+
+[project.scripts]
+decoybench = "decoybench.cli:main"
+
+[tool.setuptools]
+packages = ["decoybench"]
+
+[tool.setuptools.package-data]
+decoybench = ["neutral_cases.jsonl", "data/*.jsonl", "data/*.txt", "data/README.md"]

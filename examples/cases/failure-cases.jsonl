@@ -1,0 +1,3 @@
+{"id": "stall", "kind": "stall", "method": "GET", "target": "/stall", "headers": {}, "body_b64": "", "expectation": {"status": 200}}
+{"id": "drop", "kind": "drop", "method": "GET", "target": "/drop", "headers": {}, "body_b64": "", "expectation": {"status": 200}}
+{"id": "ok", "kind": "page", "method": "GET", "target": "/", "headers": {}, "body_b64": "", "expectation": {"status": 200}}

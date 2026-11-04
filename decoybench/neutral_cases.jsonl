@@ -1,0 +1,10 @@
+{"id": "home", "kind": "page", "method": "GET", "target": "/", "headers": {"Accept": "text/plain"}, "body_b64": "", "expectation": {"status": 200}}
+{"id": "status", "kind": "page", "method": "GET", "target": "/status", "headers": {"Accept": "text/plain"}, "body_b64": "", "expectation": {"status": 200}}
+{"id": "missing-a", "kind": "not_found", "method": "GET", "target": "/archive/2019.zip", "headers": {"Accept": "text/plain"}, "body_b64": "", "expectation": {"status": 404}}
+{"id": "missing-b", "kind": "not_found", "method": "GET", "target": "/old/index.php", "headers": {"Accept": "text/plain"}, "body_b64": "", "expectation": {"status": 404}}
+{"id": "missing-c", "kind": "not_found", "method": "GET", "target": "/backup/config.bak", "headers": {"Accept": "text/plain"}, "body_b64": "", "expectation": {"status": 404}}
+{"id": "sign-in", "kind": "refused_form", "method": "POST", "target": "/sign-in", "headers": {"Accept": "text/plain", "Content-Type": "application/x-www-form-urlencoded"}, "body_b64": "dXNlcj1leGFtcGxlJmNvZGU9MDAwMA==", "expectation": {"status": 401}}
+{"id": "put", "kind": "bad_method", "method": "PUT", "target": "/status", "headers": {"Accept": "text/plain"}, "body_b64": "", "expectation": {"status": 405}}
+{"id": "delay", "kind": "slow", "method": "GET", "target": "/delay/150", "headers": {"Accept": "text/plain"}, "body_b64": "", "expectation": {"status": 200}}
+{"id": "fb-3", "kind": "labelled", "method": "GET", "target": "/sometimes-fallback/3", "headers": {"Accept": "text/plain"}, "body_b64": "", "expectation": {"status": 404}}
+{"id": "fb-4", "kind": "labelled", "method": "GET", "target": "/sometimes-fallback/4", "headers": {"Accept": "text/plain"}, "body_b64": "", "expectation": {"status": 404}}

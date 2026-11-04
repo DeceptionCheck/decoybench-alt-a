@@ -1,0 +1,384 @@
+{
+  "conditions": {
+    "1": {
+      "clients": 1,
+      "complete_s_any_complete": {
+        "count": 7,
+        "max_s": 0.31730648600000677,
+        "p50_s": 0.026365157000100226,
+        "p95_s": 0.31730648600000677
+      },
+      "complete_s_ok": {
+        "count": 3,
+        "max_s": 0.31730648600000677,
+        "p50_s": 0.04205357000000731,
+        "p95_s": 0.31730648600000677
+      },
+      "expected_failures": 8,
+      "finish_reasons": {
+        "length": 1,
+        "stop": 4,
+        "tool_calls": 1
+      },
+      "first_content_s_ok": {
+        "count": 3,
+        "max_s": 0.3015962069999887,
+        "p50_s": 0.021045447999995304,
+        "p95_s": 0.3015962069999887
+      },
+      "lexical": {
+        "checked": 11,
+        "kind": "lexical only; semantic check NOT PERFORMED",
+        "passed": 10,
+        "violations": {
+          "credential_like": 1
+        }
+      },
+      "outcomes": {
+        "deadline_exceeded": 1,
+        "empty_final": 1,
+        "malformed_envelope": 1,
+        "ok": 3,
+        "partial_body": 1,
+        "throttled_429": 1,
+        "tool_call": 1,
+        "transport_error": 1,
+        "truncated_final": 1
+      },
+      "reconciliation": {
+        "duplicate_planned_indices": [],
+        "failed": 7,
+        "missing_planned_indices": [],
+        "ok": 3,
+        "planned": 11,
+        "reconciled": true,
+        "rows": 11,
+        "sum": 11,
+        "throttled": 1,
+        "unknown_outcomes": []
+      },
+      "setup_s_ok": {
+        "count": 3,
+        "max_s": 0.0004599139999754698,
+        "p50_s": 0.0002821900000071764,
+        "p95_s": 0.0004599139999754698
+      },
+      "status_mismatches": 0,
+      "storage": {
+        "suppressed": 1,
+        "unreplayable": 1
+      },
+      "throttled_429": 1,
+      "unexpected": 0
+    },
+    "2": {
+      "clients": 2,
+      "complete_s_any_complete": {
+        "count": 7,
+        "max_s": 0.3173989800000072,
+        "p50_s": 0.02652928099996643,
+        "p95_s": 0.3173989800000072
+      },
+      "complete_s_ok": {
+        "count": 3,
+        "max_s": 0.3173989800000072,
+        "p50_s": 0.041994582999905106,
+        "p95_s": 0.3173989800000072
+      },
+      "expected_failures": 8,
+      "finish_reasons": {
+        "length": 1,
+        "stop": 4,
+        "tool_calls": 1
+      },
+      "first_content_s_ok": {
+        "count": 3,
+        "max_s": 0.301823446999947,
+        "p50_s": 0.021222034999937023,
+        "p95_s": 0.301823446999947
+      },
+      "lexical": {
+        "checked": 11,
+        "kind": "lexical only; semantic check NOT PERFORMED",
+        "passed": 10,
+        "violations": {
+          "credential_like": 1
+        }
+      },
+      "outcomes": {
+        "deadline_exceeded": 1,
+        "empty_final": 1,
+        "malformed_envelope": 1,
+        "ok": 3,
+        "partial_body": 1,
+        "throttled_429": 1,
+        "tool_call": 1,
+        "transport_error": 1,
+        "truncated_final": 1
+      },
+      "reconciliation": {
+        "duplicate_planned_indices": [],
+        "failed": 7,
+        "missing_planned_indices": [],
+        "ok": 3,
+        "planned": 11,
+        "reconciled": true,
+        "rows": 11,
+        "sum": 11,
+        "throttled": 1,
+        "unknown_outcomes": []
+      },
+      "setup_s_ok": {
+        "count": 3,
+        "max_s": 0.00034701899994615815,
+        "p50_s": 0.0003414770000063072,
+        "p95_s": 0.00034701899994615815
+      },
+      "status_mismatches": 0,
+      "storage": {
+        "suppressed": 1,
+        "unreplayable": 1
+      },
+      "throttled_429": 1,
+      "unexpected": 0
+    },
+    "4": {
+      "clients": 4,
+      "complete_s_any_complete": {
+        "count": 7,
+        "max_s": 0.31855741000003945,
+        "p50_s": 0.027090637000014794,
+        "p95_s": 0.31855741000003945
+      },
+      "complete_s_ok": {
+        "count": 3,
+        "max_s": 0.31855741000003945,
+        "p50_s": 0.044162962000086736,
+        "p95_s": 0.31855741000003945
+      },
+      "expected_failures": 8,
+      "finish_reasons": {
+        "length": 1,
+        "stop": 4,
+        "tool_calls": 1
+      },
+      "first_content_s_ok": {
+        "count": 3,
+        "max_s": 0.3029008390000172,
+        "p50_s": 0.022995079000111218,
+        "p95_s": 0.3029008390000172
+      },
+      "lexical": {
+        "checked": 11,
+        "kind": "lexical only; semantic check NOT PERFORMED",
+        "passed": 10,
+        "violations": {
+          "credential_like": 1
+        }
+      },
+      "outcomes": {
+        "deadline_exceeded": 1,
+        "empty_final": 1,
+        "malformed_envelope": 1,
+        "ok": 3,
+        "partial_body": 1,
+        "throttled_429": 1,
+        "tool_call": 1,
+        "transport_error": 1,
+        "truncated_final": 1
+      },
+      "reconciliation": {
+        "duplicate_planned_indices": [],
+        "failed": 7,
+        "missing_planned_indices": [],
+        "ok": 3,
+        "planned": 11,
+        "reconciled": true,
+        "rows": 11,
+        "sum": 11,
+        "throttled": 1,
+        "unknown_outcomes": []
+      },
+      "setup_s_ok": {
+        "count": 3,
+        "max_s": 0.0011188990000619015,
+        "p50_s": 0.0005825120000508832,
+        "p95_s": 0.0011188990000619015
+      },
+      "status_mismatches": 0,
+      "storage": {
+        "suppressed": 1,
+        "unreplayable": 1
+      },
+      "throttled_429": 1,
+      "unexpected": 0
+    },
+    "8": {
+      "clients": 8,
+      "complete_s_any_complete": {
+        "count": 7,
+        "max_s": 0.32070579000003363,
+        "p50_s": 0.03164969200008727,
+        "p95_s": 0.32070579000003363
+      },
+      "complete_s_ok": {
+        "count": 3,
+        "max_s": 0.32070579000003363,
+        "p50_s": 0.046115304999943874,
+        "p95_s": 0.32070579000003363
+      },
+      "expected_failures": 8,
+      "finish_reasons": {
+        "length": 1,
+        "stop": 4,
+        "tool_calls": 1
+      },
+      "first_content_s_ok": {
+        "count": 3,
+        "max_s": 0.3046216340000001,
+        "p50_s": 0.026579968999953962,
+        "p95_s": 0.3046216340000001
+      },
+      "lexical": {
+        "checked": 11,
+        "kind": "lexical only; semantic check NOT PERFORMED",
+        "passed": 10,
+        "violations": {
+          "credential_like": 1
+        }
+      },
+      "outcomes": {
+        "deadline_exceeded": 1,
+        "empty_final": 1,
+        "malformed_envelope": 1,
+        "ok": 3,
+        "partial_body": 1,
+        "throttled_429": 1,
+        "tool_call": 1,
+        "transport_error": 1,
+        "truncated_final": 1
+      },
+      "reconciliation": {
+        "duplicate_planned_indices": [],
+        "failed": 7,
+        "missing_planned_indices": [],
+        "ok": 3,
+        "planned": 11,
+        "reconciled": true,
+        "rows": 11,
+        "sum": 11,
+        "throttled": 1,
+        "unknown_outcomes": []
+      },
+      "setup_s_ok": {
+        "count": 3,
+        "max_s": 0.0020256819999531217,
+        "p50_s": 0.0020056419999718855,
+        "p95_s": 0.0020256819999531217
+      },
+      "status_mismatches": 0,
+      "storage": {
+        "suppressed": 1,
+        "unreplayable": 1
+      },
+      "throttled_429": 1,
+      "unexpected": 0
+    }
+  },
+  "explanations": {
+    "abnormal_finish": [
+      "A finish reason other than 'stop' (for example a content filter).",
+      "Read the finish reason column."
+    ],
+    "deadline_exceeded": [
+      "No complete response within the deadline (a stall or a slow trickle).",
+      "Look at stage and first-content time to see where time went. Do not raise the deadline to hide it."
+    ],
+    "empty_final": [
+      "A complete response with no visible answer.",
+      "Check reasoning-only replies or an empty generation."
+    ],
+    "http_error": [
+      "The model endpoint answered with a non-200 status other than 429.",
+      "Check the endpoint path, the model name and the credential. Error bodies are not stored."
+    ],
+    "internal_error": [
+      "The harness itself raised an error for this attempt.",
+      "This is a DecoyBench defect. Report it with the row."
+    ],
+    "malformed_envelope": [
+      "The response could not be parsed (invalid HTTP status line, invalid JSON or event).",
+      "Check that the endpoint speaks the expected contract; use --no-stream for JSON-only servers."
+    ],
+    "missing_finish": [
+      "A complete stream with no finish reason.",
+      "The endpoint does not follow the contract; record it."
+    ],
+    "ok": [
+      "Complete, usable response inside the deadline.",
+      "Nothing to do."
+    ],
+    "partial_body": [
+      "The connection ended before the response was complete (no stream terminator or short body).",
+      "Check the server or proxy for early closes and response size limits."
+    ],
+    "setup_timeout": [
+      "DNS, TCP connect and TLS did not finish within the setup cap.",
+      "Check that the service is listening and has enough accept capacity (listen backlog) for the client count. On the built-in fixture this should never happen; report it."
+    ],
+    "status_mismatch": [
+      "A complete response with a different status than the case expects.",
+      "Check the case expectation and the service's route; a changed status is a behaviour change."
+    ],
+    "throttled_429": [
+      "The endpoint answered HTTP 429 (rate limited). It stays in the denominator and is not a fast success.",
+      "Lower the client count or the rate, or ask the endpoint owner for a higher limit. Do not add retries to hide it."
+    ],
+    "too_large": [
+      "The response exceeded the size limit and was abandoned.",
+      "Check the endpoint; raise the limit only deliberately."
+    ],
+    "tool_call": [
+      "The model returned a tool call instead of an answer.",
+      "This harness sends no tools; a tool call is a failure."
+    ],
+    "transport_error": [
+      "The connection was refused or reset before a response.",
+      "Check that the service is up and reachable."
+    ],
+    "truncated_final": [
+      "The model stopped because of a length limit (finish reason 'length').",
+      "Raise --max-tokens only if the use case allows longer replies; a truncated answer is not a success."
+    ]
+  },
+  "labels": {
+    "checks": "lexical only",
+    "identity_verified": false,
+    "measurement": "bare-model transport and lexical checks",
+    "model_qualification": "NOT PERFORMED",
+    "semantic_check": "NOT PERFORMED",
+    "target": "built-in neutral fixture: measures the harness and the fixture, never a model or a deployment"
+  },
+  "mode": "bare-model",
+  "rescore": {
+    "changed": 0,
+    "limitation": "Unreplayable rows (suppressed replies) keep the original verdict; it was not recomputed.",
+    "status_counts": {
+      "recomputed": 40,
+      "unreplayable": 4
+    }
+  },
+  "run_id": "1c89a0f5e024",
+  "schema": "decoybench-summary-2",
+  "target_kind": "fixture",
+  "totals": {
+    "expected_failures": 32,
+    "failed": 28,
+    "ok": 12,
+    "planned": 44,
+    "reconciled": true,
+    "rows": 44,
+    "throttled": 4,
+    "unexpected": 0
+  }
+}

@@ -1,0 +1,11 @@
+{"id": "control", "category": "control", "prompt": "When does the reading room open?"}
+{"id": "slow-first-content", "category": "control", "prompt": "How do I borrow a book?", "fixture_fault": "slow"}
+{"id": "stall", "category": "injected", "prompt": "Is there a queue for the scanner?", "fixture_fault": "stall", "expect_outcome": "deadline_exceeded"}
+{"id": "partial", "category": "injected", "prompt": "Who should I ask about donations?", "fixture_fault": "partial", "expect_outcome": "partial_body"}
+{"id": "malformed", "category": "injected", "prompt": "Hello.", "fixture_fault": "malformed", "expect_outcome": "malformed_envelope"}
+{"id": "truncated", "category": "injected", "prompt": "When does the reading room open?", "fixture_fault": "truncated", "expect_outcome": "truncated_final"}
+{"id": "throttle", "category": "injected", "prompt": "Hello.", "fixture_fault": "throttle", "expect_outcome": "throttled_429"}
+{"id": "drop", "category": "injected", "prompt": "Hello.", "fixture_fault": "drop", "expect_outcome": "transport_error"}
+{"id": "empty", "category": "injected", "prompt": "Hello.", "fixture_fault": "empty", "expect_outcome": "empty_final"}
+{"id": "tool", "category": "injected", "prompt": "Hello.", "fixture_fault": "tool", "expect_outcome": "tool_call"}
+{"id": "echo-key", "category": "injected", "prompt": "Hello.", "fixture_fault": "echo-key"}

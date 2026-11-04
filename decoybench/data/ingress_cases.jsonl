@@ -1,0 +1,8 @@
+{"id": "home", "kind": "page", "method": "GET", "target": "/", "headers": {"Accept": "text/html"}, "body_b64": "", "expectation": {"status": 200}}
+{"id": "status", "kind": "page", "method": "GET", "target": "/status", "headers": {"Accept": "application/json"}, "body_b64": "", "expectation": {"status": 200}}
+{"id": "missing-a", "kind": "unknown_path", "method": "GET", "target": "/archive/2019.zip", "headers": {}, "body_b64": "", "expectation": {"status": 404}}
+{"id": "missing-b", "kind": "unknown_path", "method": "GET", "target": "/not-present", "headers": {}, "body_b64": "", "expectation": {"status": 404}}
+{"id": "sign-in", "kind": "rejected_form", "method": "POST", "target": "/sign-in", "headers": {"Content-Type": "application/x-www-form-urlencoded"}, "body_b64": "", "expectation": {"status": 401}}
+{"id": "method", "kind": "unsupported_method", "method": "PATCH", "target": "/overview", "headers": {}, "body_b64": "", "expectation": {"status": 405}}
+{"id": "configuration", "kind": "operational_unavailable", "method": "GET", "target": "/configuration", "headers": {}, "body_b64": "", "expectation": {"status": 403}}
+{"id": "session", "kind": "session", "method": "GET", "target": "/session", "headers": {}, "body_b64": "", "expectation": {"status": 200}}

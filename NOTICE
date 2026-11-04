@@ -1,0 +1,12 @@
+DecoyBench
+Copyright (c) 2026 Deception Check, Inc.
+
+Licensed under the MIT License; see LICENSE. The licence covers the files in
+this repository only.
+
+Third-party code: none is included. DecoyBench uses only the Python standard
+library at run time and in its tests. Python itself is not distributed here
+and is used under its own licence (Python Software Foundation License).
+
+No model weights, model runtimes, private prompts, voice data, or private research
+records are included. See WITHHELD.md for what the public package omits.

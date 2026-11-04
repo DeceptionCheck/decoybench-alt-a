@@ -1,0 +1,316 @@
+{
+  "conditions": {
+    "1": {
+      "clients": 1,
+      "complete_s_any_complete": {
+        "count": 3,
+        "max_s": 0.002585586999998668,
+        "p50_s": 0.0013289309999890975,
+        "p95_s": 0.002585586999998668
+      },
+      "complete_s_ok": {
+        "count": 2,
+        "max_s": 0.002585586999998668,
+        "p50_s": 0.000915766999924017,
+        "p95_s": 0.002585586999998668
+      },
+      "cookies": {
+        "requests_with_cookie": 0,
+        "set_cookie_headers": 0
+      },
+      "expected_failures": 5,
+      "finish_reasons": {},
+      "first_content_s_ok": {
+        "count": 2,
+        "max_s": 0.0024431560000266472,
+        "p50_s": 0.0008142329999145659,
+        "p95_s": 0.0024431560000266472
+      },
+      "outcomes": {
+        "deadline_exceeded": 1,
+        "malformed_envelope": 1,
+        "ok": 2,
+        "partial_body": 1,
+        "throttled_429": 1,
+        "transport_error": 1
+      },
+      "reconciliation": {
+        "duplicate_planned_indices": [],
+        "failed": 4,
+        "missing_planned_indices": [],
+        "ok": 2,
+        "planned": 7,
+        "reconciled": true,
+        "rows": 7,
+        "sum": 7,
+        "throttled": 1,
+        "unknown_outcomes": []
+      },
+      "setup_s_ok": {
+        "count": 2,
+        "max_s": 0.0014376960000390682,
+        "p50_s": 0.000393117999919923,
+        "p95_s": 0.0014376960000390682
+      },
+      "status_mismatches": 0,
+      "throttled_429": 1,
+      "unexpected": 0
+    },
+    "2": {
+      "clients": 2,
+      "complete_s_any_complete": {
+        "count": 3,
+        "max_s": 0.0022389590000102544,
+        "p50_s": 0.001454146000014589,
+        "p95_s": 0.0022389590000102544
+      },
+      "complete_s_ok": {
+        "count": 2,
+        "max_s": 0.0022389590000102544,
+        "p50_s": 0.0013815410000006523,
+        "p95_s": 0.0022389590000102544
+      },
+      "cookies": {
+        "requests_with_cookie": 0,
+        "set_cookie_headers": 0
+      },
+      "expected_failures": 5,
+      "finish_reasons": {},
+      "first_content_s_ok": {
+        "count": 2,
+        "max_s": 0.001736195000034968,
+        "p50_s": 0.001097044000061942,
+        "p95_s": 0.001736195000034968
+      },
+      "outcomes": {
+        "deadline_exceeded": 1,
+        "malformed_envelope": 1,
+        "ok": 2,
+        "partial_body": 1,
+        "throttled_429": 1,
+        "transport_error": 1
+      },
+      "reconciliation": {
+        "duplicate_planned_indices": [],
+        "failed": 4,
+        "missing_planned_indices": [],
+        "ok": 2,
+        "planned": 7,
+        "reconciled": true,
+        "rows": 7,
+        "sum": 7,
+        "throttled": 1,
+        "unknown_outcomes": []
+      },
+      "setup_s_ok": {
+        "count": 2,
+        "max_s": 0.0005126669999526712,
+        "p50_s": 0.0003073190000577597,
+        "p95_s": 0.0005126669999526712
+      },
+      "status_mismatches": 0,
+      "throttled_429": 1,
+      "unexpected": 0
+    },
+    "4": {
+      "clients": 4,
+      "complete_s_any_complete": {
+        "count": 3,
+        "max_s": 0.005922826999949393,
+        "p50_s": 0.0058281010000200695,
+        "p95_s": 0.005922826999949393
+      },
+      "complete_s_ok": {
+        "count": 2,
+        "max_s": 0.005922826999949393,
+        "p50_s": 0.004235412999946675,
+        "p95_s": 0.005922826999949393
+      },
+      "cookies": {
+        "requests_with_cookie": 0,
+        "set_cookie_headers": 0
+      },
+      "expected_failures": 5,
+      "finish_reasons": {},
+      "first_content_s_ok": {
+        "count": 2,
+        "max_s": 0.0046618110000054,
+        "p50_s": 0.0040410689999816896,
+        "p95_s": 0.0046618110000054
+      },
+      "outcomes": {
+        "deadline_exceeded": 1,
+        "malformed_envelope": 1,
+        "ok": 2,
+        "partial_body": 1,
+        "throttled_429": 1,
+        "transport_error": 1
+      },
+      "reconciliation": {
+        "duplicate_planned_indices": [],
+        "failed": 4,
+        "missing_planned_indices": [],
+        "ok": 2,
+        "planned": 7,
+        "reconciled": true,
+        "rows": 7,
+        "sum": 7,
+        "throttled": 1,
+        "unknown_outcomes": []
+      },
+      "setup_s_ok": {
+        "count": 2,
+        "max_s": 0.0026790289999780725,
+        "p50_s": 0.002596584000002622,
+        "p95_s": 0.0026790289999780725
+      },
+      "status_mismatches": 0,
+      "throttled_429": 1,
+      "unexpected": 0
+    },
+    "8": {
+      "clients": 8,
+      "complete_s_any_complete": {
+        "count": 3,
+        "max_s": 0.027916988000015408,
+        "p50_s": 0.0233414530000573,
+        "p95_s": 0.027916988000015408
+      },
+      "complete_s_ok": {
+        "count": 2,
+        "max_s": 0.027916988000015408,
+        "p50_s": 0.015981948999979068,
+        "p95_s": 0.027916988000015408
+      },
+      "cookies": {
+        "requests_with_cookie": 0,
+        "set_cookie_headers": 0
+      },
+      "expected_failures": 5,
+      "finish_reasons": {},
+      "first_content_s_ok": {
+        "count": 2,
+        "max_s": 0.0275060220000114,
+        "p50_s": 0.010774550999940402,
+        "p95_s": 0.0275060220000114
+      },
+      "outcomes": {
+        "deadline_exceeded": 1,
+        "malformed_envelope": 1,
+        "ok": 2,
+        "partial_body": 1,
+        "throttled_429": 1,
+        "transport_error": 1
+      },
+      "reconciliation": {
+        "duplicate_planned_indices": [],
+        "failed": 4,
+        "missing_planned_indices": [],
+        "ok": 2,
+        "planned": 7,
+        "reconciled": true,
+        "rows": 7,
+        "sum": 7,
+        "throttled": 1,
+        "unknown_outcomes": []
+      },
+      "setup_s_ok": {
+        "count": 2,
+        "max_s": 0.0023359379999874363,
+        "p50_s": 0.001959914999929424,
+        "p95_s": 0.0023359379999874363
+      },
+      "status_mismatches": 0,
+      "throttled_429": 1,
+      "unexpected": 0
+    }
+  },
+  "explanations": {
+    "abnormal_finish": [
+      "A finish reason other than 'stop' (for example a content filter).",
+      "Read the finish reason column."
+    ],
+    "deadline_exceeded": [
+      "No complete response within the deadline (a stall or a slow trickle).",
+      "Look at stage and first-content time to see where time went. Do not raise the deadline to hide it."
+    ],
+    "empty_final": [
+      "A complete response with no visible answer.",
+      "Check reasoning-only replies or an empty generation."
+    ],
+    "http_error": [
+      "The model endpoint answered with a non-200 status other than 429.",
+      "Check the endpoint path, the model name and the credential. Error bodies are not stored."
+    ],
+    "internal_error": [
+      "The harness itself raised an error for this attempt.",
+      "This is a DecoyBench defect. Report it with the row."
+    ],
+    "malformed_envelope": [
+      "The response could not be parsed (invalid HTTP status line, invalid JSON or event).",
+      "Check that the endpoint speaks the expected contract; use --no-stream for JSON-only servers."
+    ],
+    "missing_finish": [
+      "A complete stream with no finish reason.",
+      "The endpoint does not follow the contract; record it."
+    ],
+    "ok": [
+      "Complete, usable response inside the deadline.",
+      "Nothing to do."
+    ],
+    "partial_body": [
+      "The connection ended before the response was complete (no stream terminator or short body).",
+      "Check the server or proxy for early closes and response size limits."
+    ],
+    "setup_timeout": [
+      "DNS, TCP connect and TLS did not finish within the setup cap.",
+      "Check that the service is listening and has enough accept capacity (listen backlog) for the client count. On the built-in fixture this should never happen; report it."
+    ],
+    "status_mismatch": [
+      "A complete response with a different status than the case expects.",
+      "Check the case expectation and the service's route; a changed status is a behaviour change."
+    ],
+    "throttled_429": [
+      "The endpoint answered HTTP 429 (rate limited). It stays in the denominator and is not a fast success.",
+      "Lower the client count or the rate, or ask the endpoint owner for a higher limit. Do not add retries to hide it."
+    ],
+    "too_large": [
+      "The response exceeded the size limit and was abandoned.",
+      "Check the endpoint; raise the limit only deliberately."
+    ],
+    "tool_call": [
+      "The model returned a tool call instead of an answer.",
+      "This harness sends no tools; a tool call is a failure."
+    ],
+    "transport_error": [
+      "The connection was refused or reset before a response.",
+      "Check that the service is up and reachable."
+    ],
+    "truncated_final": [
+      "The model stopped because of a length limit (finish reason 'length').",
+      "Raise --max-tokens only if the use case allows longer replies; a truncated answer is not a success."
+    ]
+  },
+  "labels": {
+    "checks": "status, completeness and timing only",
+    "identity_verified": false,
+    "measurement": "HTTP ingress transport",
+    "model_qualification": "NOT PERFORMED",
+    "semantic_check": "NOT PERFORMED",
+    "target": "built-in neutral fixture: measures the harness and the fixture, never a model or a deployment"
+  },
+  "mode": "ingress",
+  "run_id": "d41935946163",
+  "schema": "decoybench-summary-2",
+  "target_kind": "fixture",
+  "totals": {
+    "expected_failures": 20,
+    "failed": 16,
+    "ok": 8,
+    "planned": 28,
+    "reconciled": true,
+    "rows": 28,
+    "throttled": 4,
+    "unexpected": 0
+  }
+}

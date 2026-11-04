@@ -1,0 +1,7 @@
+{"id": "control", "kind": "page", "method": "GET", "target": "/status", "headers": {}, "body_b64": "", "expectation": {"status": 200}}
+{"id": "control-missing", "kind": "unknown_path", "method": "GET", "target": "/not-present", "headers": {}, "body_b64": "", "expectation": {"status": 404}}
+{"id": "stall", "kind": "injected", "method": "GET", "target": "/fault/stall", "headers": {}, "body_b64": "", "expectation": {"status": 200}, "expect_outcome": "deadline_exceeded"}
+{"id": "partial", "kind": "injected", "method": "GET", "target": "/fault/partial", "headers": {}, "body_b64": "", "expectation": {"status": 200}, "expect_outcome": "partial_body"}
+{"id": "malformed", "kind": "injected", "method": "GET", "target": "/fault/malformed", "headers": {}, "body_b64": "", "expectation": {"status": 200}, "expect_outcome": "malformed_envelope"}
+{"id": "throttle", "kind": "injected", "method": "GET", "target": "/fault/throttle", "headers": {}, "body_b64": "", "expectation": {"status": 200}, "expect_outcome": "throttled_429"}
+{"id": "drop", "kind": "injected", "method": "GET", "target": "/fault/drop", "headers": {}, "body_b64": "", "expectation": {"status": 200}, "expect_outcome": "transport_error"}

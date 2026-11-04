@@ -1,0 +1,43 @@
+{
+  "criteria": {
+    "max_failed": null,
+    "max_p95_complete_s": null,
+    "max_throttled": null,
+    "max_unexpected": 0,
+    "require_lexical_pass": true,
+    "require_zero_listen_overflows": true
+  },
+  "passed": false,
+  "results": [
+    {
+      "criterion": "counts reconcile (planned = ok + throttled + failed, no missing or duplicate attempt)",
+      "observed": true,
+      "result": "PASS",
+      "threshold": true
+    },
+    {
+      "criterion": "unexpected outcomes",
+      "observed": 0,
+      "result": "PASS",
+      "threshold": 0
+    },
+    {
+      "criterion": "lexical findings",
+      "observed": 8,
+      "result": "FAIL",
+      "threshold": 0
+    },
+    {
+      "criterion": "host listen-queue overflows during the run (fixture capacity)",
+      "observed": 0,
+      "result": "PASS",
+      "threshold": 0
+    },
+    {
+      "criterion": "credential bytes in outputs",
+      "observed": 0,
+      "result": "PASS",
+      "threshold": 0
+    }
+  ]
+}

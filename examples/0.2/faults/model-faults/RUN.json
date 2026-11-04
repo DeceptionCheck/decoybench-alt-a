@@ -1,0 +1,77 @@
+{
+  "ca_file": null,
+  "call_settings": {
+    "ca_file": null
+  },
+  "cases": 11,
+  "clients": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "code_sha256": {
+    "__init__.py": "c41e04d827427390aaa0a42233cdd6375ca8a5f03063dd9224537b5390a08c21",
+    "cases.py": "6560d1c71571357446012358bd3b26111c4bedaf41fc8becc086c69e65fe9c12",
+    "cli.py": "c4f19f2267a385b2cdc56df9e6335454f037ec25b4fb9925ef40dfce535b26d7",
+    "fixture.py": "795137dd8d6b71cf493aed0fd978052256ee944fafd4737a5616f928a61535d5",
+    "model.py": "a3414fc79550d6bee6180a7d079b355d30acf818caf93a995ac59d2ce8aafd73",
+    "package.py": "f987f33ae236783a0ae501100d8620a48825f11edc887f218391c73ac19c97f8",
+    "redaction.py": "1976849e42c9cea6a5e590b167281ef7523752f0cb02c1c0d6b706353922aac4",
+    "report.py": "9bcfe13e82b1b3f972985b6bcb658715dce524f6a366a88424dda8743471e1f2",
+    "runner.py": "2a4a922327fa78928ed136a5b427da683ef6a467202e797ca7f0c20661e410a2",
+    "score.py": "87a3cec1eb947be5f0d6c4c6488f69a8cc14aefbb690e6b60892b18c1559a57c",
+    "summary.py": "c0a7ca3498b7b12d2381addd4f1e3032b6e4db60bc962b795ff57d1efa1cd855",
+    "transport.py": "46e7b45c67fde12b057e4ae643a3ee7b19768f2d0daf9a38993444e8964aa18c",
+    "viewer.py": "111b24edc8884c869441c8c748a411133e8210a5c748c5f063b82924f741899f"
+  },
+  "corpus_file": "model_faults.jsonl",
+  "corpus_sha256": "31b6bcd1e7dbc00d98b2129328cbfd2169fb923c1ef9255b9fc642fcf42c78fe",
+  "credential_source": "generated demonstration key",
+  "deadline_s": 4.0,
+  "denylist_loaded": false,
+  "denylist_terms": 0,
+  "end_utc": "2026-11-03T19:44:18.197904Z",
+  "endpoint_scheme": "http",
+  "endpoint_sha256": "7b9bfd1c81de682cabaa5f12f12a6c43df9bfb309e543b25084efed23b9b6bb1",
+  "environment": {
+    "fixture_capacity": {
+      "declared_clients": 8,
+      "listen_backlog": 128,
+      "stall_hold_s": 6.0,
+      "thread_per_connection": true
+    },
+    "fixture_connections_accepted": 45,
+    "listen_overflows_delta": 0,
+    "listen_overflows_scope": "host-wide Linux counter"
+  },
+  "hardware_id": "unspecified",
+  "labels": {
+    "checks": "lexical only",
+    "identity_verified": false,
+    "measurement": "bare-model transport and lexical checks",
+    "model_qualification": "NOT PERFORMED",
+    "semantic_check": "NOT PERFORMED",
+    "target": "built-in neutral fixture: measures the harness and the fixture, never a model or a deployment"
+  },
+  "max_tokens": 120,
+  "mode": "bare-model",
+  "model": "neutral-fixture",
+  "platform": "Linux-6.18.44-fc-v230-x86_64-with-glibc2.39",
+  "python": "3.13.18",
+  "repetitions": 1,
+  "run_id": "1c89a0f5e024",
+  "runtime_id": "fixture",
+  "schema": "decoybench-run-2",
+  "seed": 11047,
+  "setup_cap_s": 0.15,
+  "start_utc": "2026-11-03T19:44:01.571948Z",
+  "stream": true,
+  "system_file": "model_system.txt",
+  "system_sha256": "12472d114d1eaf34a297c5b8e6829f3256996f751bed9dc3a658d8d43862905e",
+  "target_kind": "fixture",
+  "temperature": null,
+  "tool": "decoybench",
+  "tool_version": "0.2.1",
+  "wire_contract": "chat-completions SSE"
+}
