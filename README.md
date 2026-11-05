@@ -1,3 +1,7 @@
+<!-- Development credit: Opus -->
+
+**Development attribution:** Opus assisted this alternative A implementation under Deception Check’s direction. Sol assisted [the reference](https://github.com/DeceptionCheck/decoybench); Muse / Meta Spark 1.3 assisted [alternative B](https://github.com/DeceptionCheck/decoybench-alt-b). These are coding credits, not runtime model claims.
+
 # DecoyBench
 
 > **This is DecoyBench implementation A, version 0.2.1** (repository `decoybench-alt-a`), one of three independent implementations built from the same specification and tests. The reference implementation is [decoybench](https://github.com/DeceptionCheck/decoybench); the other alternate is [decoybench-alt-b](https://github.com/DeceptionCheck/decoybench-alt-b). They have different commands and result formats; keep each in its own folder or virtual environment. Results and the model program: https://meta.deceptioncheck.ai/research/DecoyBench-Report.html
