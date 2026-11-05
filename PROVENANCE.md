@@ -2,11 +2,11 @@
 
 ## Baseline
 
-- **Prior baseline:** Opus's DecoyBench 0.1.0 public-candidate export, preserved unchanged.
+- **Prior baseline:** the earlier 0.1.0 public-candidate export, preserved unchanged.
   - Archive `decoybench-0.1.0.tar.gz`, SHA-256 `da9aee6d0dd85b5c325957c1ff412f1fd058ea1c78e51bbe9f426481c7c84d74`.
   - Bundle `decoybench-public.bundle`, SHA-256 `426a6807b0f5ba939c506f37a84ef02e73800f5fc8b4c71e7f4efb590f040750`.
   - Commit `1345001c10204f6948b8a390ab778ea8af41c448`.
-- **History:** this repository's first commit is that baseline commit, byte for byte. 0.2 is developed on branch `opus/decoybench-v2` on top of it.
+- **History:** this repository's first commit is that baseline commit, byte for byte. 0.2 is developed on branch `alt-a/decoybench-v2` on top of it.
 - **Unchanged:** the baseline archive and bundle themselves, and the backup application and its release packages.
 
 ## Reused unchanged
@@ -49,7 +49,7 @@
 
 ## What was reviewed and not imported
 
-- **Reviewed:** Sol's standalone candidate, commit `39a511f7ab4bc71e6e0817c2a9394f11bb1e0bb6` (`DecoyBench-v1-candidate-r4.bundle`), for capabilities only.
+- **Reviewed:** the reference implementation's candidate, commit `39a511f7ab4bc71e6e0817c2a9394f11bb1e0bb6` (`DecoyBench-v1-candidate-r4.bundle`), for capabilities only.
 - **Not imported:** no code, corpus, prompt, rule list, qualification policy or application dependency was copied from it, or from any private application.
 - **Comparable ideas, written independently here:**
   - per-worker cookie jars;
@@ -61,8 +61,8 @@
 
 ## Capacity finding that shaped the fixture
 
-- **Sol's candidate:** at commit `39a511f`, the model and ingress fixtures use the library's default listen backlog of 5. In this workspace, repeated 20-matrix dry runs at 1/2/4/8 clients each produced a few 8-client attempts that failed at the 0.15 s setup cap, while the host's listen-overflow counter rose. The exact counts are in the comparison receipts delivered with this candidate, not in this repository.
+- **The reference candidate:** at commit `39a511f`, the model and ingress fixtures use the library's default listen backlog of 5. In this workspace, repeated 20-matrix dry runs at 1/2/4/8 clients each produced a few 8-client attempts that failed at the 0.15 s setup cap, while the host's listen-overflow counter rose. The exact counts are in the comparison receipts delivered with this candidate, not in this repository.
 - **Backlog test:** a scratch copy of that candidate with only the backlog raised to 128 gave zero failures and zero overflows in 50 matrices.
-- **Opus 0.1 baseline:** the same default backlog was present. It had no failures (no setup cap), but the 8-client maximum rose to about 1.16 s from connection retries.
+- **0.1 baseline:** the same default backlog was present. It had no failures (no setup cap), but the 8-client maximum rose to about 1.16 s from connection retries.
 - **Fix in 0.2:** both the 0.2 fixture and the 0.1 target now size the backlog from the declared concurrency.
 - **Not yet tested:** Windows behaviour (its backlog semantics differ). That run is NOT RUN.

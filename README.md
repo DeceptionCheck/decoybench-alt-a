@@ -1,6 +1,6 @@
 # DecoyBench
 
-> **This is the Opus implementation of DecoyBench, version 0.2.1** (repository `decoybench-opus`). Two other independent implementations share the DecoyBench name: Sol's R6 and Muse's. They are separate projects with different commands, module layouts and result formats. Install each one in its own virtual environment so that none overwrites another.
+> **This is DecoyBench implementation A, version 0.2.1** (repository `decoybench-alt-a`), one of three independent implementations built from the same specification and tests. The reference implementation is [decoybench](https://github.com/DeceptionCheck/decoybench); the other alternate is [decoybench-alt-b](https://github.com/DeceptionCheck/decoybench-alt-b). They have different commands and result formats; keep each in its own folder or virtual environment. Results and the model program: https://meta.deceptioncheck.ai/research/DecoyBench-Report.html
 
 DecoyBench is a small measurement harness for lab services such as decoys and
 honeypots, and for the model endpoints behind them. It runs a corpus at 1, 2, 4
